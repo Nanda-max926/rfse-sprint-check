@@ -24,10 +24,11 @@ To contribute your solutions, follow these steps to fork the repository, add you
 
 3. **Switch to the Submissions Branch**:
 
-   - Ensure the `submissions` branch exists in your fork. If not, create it:
-     ```
-     git checkout -b submissions
-     ```
+   - Switch to the `submissions` branch.
+
+   ```
+   git switch origin/submissions
+   ```
 
 4. **Create a Folder with Your Name**:
 
@@ -38,31 +39,15 @@ To contribute your solutions, follow these steps to fork the repository, add you
 
 5. **Add Your Solutions**:
 
-   - Create a file (e.g., `solutions.md` or `solutions.txt`) inside your folder.
-   - For each of the 13 programs (10 easy, 3 moderate), provide:
-     - The program number and name (e.g., "Easy 1: Find the maximum value").
-     - Your calculated **time complexity** (e.g., O(n)).
-     - Your calculated **space complexity** (e.g., O(1)).
-     - A brief explanation (1-2 sentences) for each complexity.
-   - Example format for your solutions file:
+   - Create a file (e.g., `sprint-1-check-solutions.md` or `sprint-1-check-solutions.txt`) inside your folder.
 
-     ```
-     ## Easy 1: Find the maximum value
-     - **Time Complexity**: O(n)
-     - **Space Complexity**: O(1)
-     - **Explanation**: Iterates through the array once (n elements) to find the max; uses a fixed-size array and one variable.
-
-     ## Easy 2: Check if a number is even or odd
-     - **Time Complexity**: O(1)
-     - **Space Complexity**: O(1)
-     - **Explanation**: Performs a single modulo operation; uses one variable.
-     ```
+   - Create a file (e.g., `sprint-1-check-theory-solutions.md` or `sprint-1-check-theory-solutions.txt`) inside your folder.
 
 6. **Commit Your Changes**:
 
    - Add your folder and solutions file to git:
      ```
-     git add Your_Name/solutions.md
+     git add .
      ```
    - Commit with a clear message:
      ```
@@ -90,7 +75,7 @@ To contribute your solutions, follow these steps to fork the repository, add you
 - Submit solutions in a clear, organized format (preferably Markdown or plain text).
 - Only submit to the `submissions` branch; PRs to other branches will be rejected.
 - Double-check your time and space complexity calculations for accuracy.
-- Submit by the deadline communicated by the RFSE club.
+- Submit by the deadline communicated by the rfSE club.
 
 ## Need Help?
 
