@@ -97,4 +97,4 @@ To contribute your solutions, follow these steps to fork the repository, add you
 - If you're new to Git/GitHub, refer to [GitHub's PR guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 - Reach out to the rfSE Club club’s slack channel for assistance.
 
-Happy coding!g
+Happy coding!
